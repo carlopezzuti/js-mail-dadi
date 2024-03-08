@@ -1,0 +1,83 @@
+/*-----------------
+    RESET
+-----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*-----------------
+    GENERAL
+-----------------*/
+
+    body {
+        background-color: lightgrey;
+        font-family: sans-serif;
+    }
+
+/*-----------------
+    MAIN
+-----------------*/
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 100px auto;
+        gap: 50px;
+    }
+
+    h1 {
+        background-color: gray;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 80px;
+    }
+    
+    .field{
+        width: 150px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: white;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .field p{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    
+    button{
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        color: white;
+        background-color: gray;
+        font-size: larger;
+        border: none;
+    }
+    
+    .winner {
+        border: 6px solid green;
+    }
+    
+    .loser {
+        border: 6px solid red;
+    }
+    
+    .tie {
+        border: 6px solid yellow;
+    }
